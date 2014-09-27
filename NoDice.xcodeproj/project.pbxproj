@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC8DF5BF19D733F7003F2944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8DF5BE19D733F7003F2944 /* AppDelegate.swift */; };
+		DC8DF5C119D733F7003F2944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8DF5C019D733F7003F2944 /* ViewController.swift */; };
+		DC8DF5C419D733F7003F2944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8DF5C219D733F7003F2944 /* Main.storyboard */; };
+		DC8DF5C619D733F7003F2944 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8DF5C519D733F7003F2944 /* Images.xcassets */; };
+		DC8DF5C919D733F7003F2944 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8DF5C719D733F7003F2944 /* LaunchScreen.xib */; };
+		DC8DF5D519D733F7003F2944 /* NoDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8DF5D419D733F7003F2944 /* NoDiceTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC8DF5CF19D733F7003F2944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8DF5B119D733F7003F2944 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC8DF5B819D733F7003F2944;
+			remoteInfo = NoDice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC8DF5B919D733F7003F2944 /* NoDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8DF5BD19D733F7003F2944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC8DF5BE19D733F7003F2944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC8DF5C019D733F7003F2944 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC8DF5C319D733F7003F2944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC8DF5C519D733F7003F2944 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC8DF5C819D733F7003F2944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DC8DF5CE19D733F7003F2944 /* NoDiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoDiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8DF5D319D733F7003F2944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC8DF5D419D733F7003F2944 /* NoDiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDiceTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC8DF5B619D733F7003F2944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8DF5CB19D733F7003F2944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC8DF5B019D733F7003F2944 = {
+			isa = PBXGroup;
+			children = (
+				DC8DF5BB19D733F7003F2944 /* NoDice */,
+				DC8DF5D119D733F7003F2944 /* NoDiceTests */,
+				DC8DF5BA19D733F7003F2944 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC8DF5BA19D733F7003F2944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC8DF5B919D733F7003F2944 /* NoDice.app */,
+				DC8DF5CE19D733F7003F2944 /* NoDiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC8DF5BB19D733F7003F2944 /* NoDice */ = {
+			isa = PBXGroup;
+			children = (
+				DC8DF5BE19D733F7003F2944 /* AppDelegate.swift */,
+				DC8DF5C019D733F7003F2944 /* ViewController.swift */,
+				DC8DF5C219D733F7003F2944 /* Main.storyboard */,
+				DC8DF5C519D733F7003F2944 /* Images.xcassets */,
+				DC8DF5C719D733F7003F2944 /* LaunchScreen.xib */,
+				DC8DF5BC19D733F7003F2944 /* Supporting Files */,
+			);
+			path = NoDice;
+			sourceTree = "<group>";
+		};
+		DC8DF5BC19D733F7003F2944 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC8DF5BD19D733F7003F2944 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC8DF5D119D733F7003F2944 /* NoDiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC8DF5D419D733F7003F2944 /* NoDiceTests.swift */,
+				DC8DF5D219D733F7003F2944 /* Supporting Files */,
+			);
+			path = NoDiceTests;
+			sourceTree = "<group>";
+		};
+		DC8DF5D219D733F7003F2944 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC8DF5D319D733F7003F2944 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC8DF5B819D733F7003F2944 /* NoDice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC8DF5D819D733F7003F2944 /* Build configuration list for PBXNativeTarget "NoDice" */;
+			buildPhases = (
+				DC8DF5B519D733F7003F2944 /* Sources */,
+				DC8DF5B619D733F7003F2944 /* Frameworks */,
+				DC8DF5B719D733F7003F2944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoDice;
+			productName = NoDice;
+			productReference = DC8DF5B919D733F7003F2944 /* NoDice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC8DF5CD19D733F7003F2944 /* NoDiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC8DF5DB19D733F7003F2944 /* Build configuration list for PBXNativeTarget "NoDiceTests" */;
+			buildPhases = (
+				DC8DF5CA19D733F7003F2944 /* Sources */,
+				DC8DF5CB19D733F7003F2944 /* Frameworks */,
+				DC8DF5CC19D733F7003F2944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC8DF5D019D733F7003F2944 /* PBXTargetDependency */,
+			);
+			name = NoDiceTests;
+			productName = NoDiceTests;
+			productReference = DC8DF5CE19D733F7003F2944 /* NoDiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC8DF5B119D733F7003F2944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Sam Bottoni";
+				TargetAttributes = {
+					DC8DF5B819D733F7003F2944 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					DC8DF5CD19D733F7003F2944 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = DC8DF5B819D733F7003F2944;
+					};
+				};
+			};
+			buildConfigurationList = DC8DF5B419D733F7003F2944 /* Build configuration list for PBXProject "NoDice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC8DF5B019D733F7003F2944;
+			productRefGroup = DC8DF5BA19D733F7003F2944 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC8DF5B819D733F7003F2944 /* NoDice */,
+				DC8DF5CD19D733F7003F2944 /* NoDiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC8DF5B719D733F7003F2944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8DF5C419D733F7003F2944 /* Main.storyboard in Resources */,
+				DC8DF5C919D733F7003F2944 /* LaunchScreen.xib in Resources */,
+				DC8DF5C619D733F7003F2944 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8DF5CC19D733F7003F2944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC8DF5B519D733F7003F2944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8DF5C119D733F7003F2944 /* ViewController.swift in Sources */,
+				DC8DF5BF19D733F7003F2944 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8DF5CA19D733F7003F2944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8DF5D519D733F7003F2944 /* NoDiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC8DF5D019D733F7003F2944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC8DF5B819D733F7003F2944 /* NoDice */;
+			targetProxy = DC8DF5CF19D733F7003F2944 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC8DF5C219D733F7003F2944 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC8DF5C319D733F7003F2944 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC8DF5C719D733F7003F2944 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC8DF5C819D733F7003F2944 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC8DF5D619D733F7003F2944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC8DF5D719D733F7003F2944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC8DF5D919D733F7003F2944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NoDice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC8DF5DA19D733F7003F2944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NoDice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC8DF5DC19D733F7003F2944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NoDiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoDice.app/NoDice";
+			};
+			name = Debug;
+		};
+		DC8DF5DD19D733F7003F2944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NoDiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoDice.app/NoDice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC8DF5B419D733F7003F2944 /* Build configuration list for PBXProject "NoDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8DF5D619D733F7003F2944 /* Debug */,
+				DC8DF5D719D733F7003F2944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC8DF5D819D733F7003F2944 /* Build configuration list for PBXNativeTarget "NoDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8DF5D919D733F7003F2944 /* Debug */,
+				DC8DF5DA19D733F7003F2944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC8DF5DB19D733F7003F2944 /* Build configuration list for PBXNativeTarget "NoDiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8DF5DC19D733F7003F2944 /* Debug */,
+				DC8DF5DD19D733F7003F2944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC8DF5B119D733F7003F2944 /* Project object */;
+}
