@@ -45,7 +45,7 @@ class ViewController: UIViewController {
     }
     
     func initTableValues() {
-        
+        self.tableNumberOfDice.
     }
     
     override func viewDidLoad() {
