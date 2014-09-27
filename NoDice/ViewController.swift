@@ -7,45 +7,37 @@
 //
 
 import UIKit
+import Darwin
 
 class ViewController: UIViewController {
-    let numberOfDiceCells : [Int] = [1, 2, 3, 4, 5]
-    let diceTypesCells : [String] = ["d3", "d4", "d6", "d8", "d10", "d12", "d20"]
 
-    @IBOutlet var buttonNumberOfDice : UIButton!
-    @IBOutlet var buttonDiceType : UIButton!
     @IBOutlet var textFieldResults : UITextView!
     @IBOutlet var buttonRoll : UIButton!
-    @IBOutlet var tableNumberOfDice : UITableView!
-    @IBOutlet var tableDiceType : UITableView!
+    @IBOutlet var segmentedDiceType : UISegmentedControl!
+    @IBOutlet var segmentedNumberOfDice : UISegmentedControl!
     
-    @IBAction func numberOfDiceTapped(sender : AnyObject) {
-    
-    }
-    
-    @IBAction func diceTypeTapped(sender : AnyObject) {
-        
-    }
     
     @IBAction func rollTapped(sender : AnyObject) {
-        //get values of dropdowns and do random calc
         self.refreshUI()
-        self.textFieldResults.text = "good job yo"
+        let numberOfDice = self.segmentedNumberOfDice.titleForSegmentAtIndex(self.segmentedNumberOfDice.selectedSegmentIndex)?.toInt()
+        let diceType = self.segmentedDiceType.titleForSegmentAtIndex(self.segmentedDiceType.selectedSegmentIndex)?.stringByReplacingOccurrencesOfString("d", withString: "", options: NSStringCompareOptions.AnchoredSearch, range: nil).toInt()
+        self.textFieldResults.text = self.getResultsList(numberOfDice!, diceType: diceType!)
     }
     
     func refreshUI() {
-        //hide dropdown tables
-        self.tableNumberOfDice.hidden = true
-        self.tableDiceType.hidden = true
         self.textFieldResults.text = String()
     }
     
-    func clearResultsText() {
-        
+    func getResultsList(numberOfDice: Int, diceType: Int) -> String {
+        var resultsString = String()
+        for i in 0..<numberOfDice {
+            resultsString += "\(String(self.getRandomNum(diceType))) \n"
+        }
+        return resultsString
     }
     
-    func initTableValues() {
-        self.tableNumberOfDice.
+    func getRandomNum(maxInt: Int) -> Int {
+        return Int(arc4random_uniform(UInt32(maxInt))) + 1
     }
     
     override func viewDidLoad() {
